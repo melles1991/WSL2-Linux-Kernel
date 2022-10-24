@@ -347,6 +347,7 @@ a = TMP_
 ########################################################################
 .text
 SYM_FUNC_START(sha256_transform_avx)
+.align 32
 	pushq   %rbx
 	pushq   %r12
 	pushq   %r13

@@ -96,6 +96,7 @@
  */
 
 .text
+.align 32
 SYM_FUNC_START(sha256_ni_transform)
 
 	shl		$6, NUM_BLKS		/*  convert to bytes */
